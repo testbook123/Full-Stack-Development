@@ -1,0 +1,138 @@
+:root{
+    --message: rgba(0,0,0,0.6);
+    --message_font_size:0.8rem;
+    --sidebar_title_size: 0.8rem;
+    --message_font_weight: 500;
+    --list_background: #e9e5df;
+}
+
+.sidebar{
+    padding:0  !important;
+    border-radius: 10px;
+    border:1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile_header{
+    background-image:url("back.jpg");
+    height:70px;
+}
+
+.sidebar_first_col > .profile_info{
+    text-align: center;
+    padding:0px 20px;
+    padding-bottom:10px; 
+}
+
+.sidebar_first_col{
+display: flex;
+flex-direction: column;
+align-items: stretch;
+border:2px solid rgba(0,0,0,.15);
+margin-bottom:10px;
+width:100%;
+background-color: white;
+}
+
+.profile_info > p{
+    padding:2px;
+}
+
+.connections{
+    padding:8px;
+    width:100%;
+}
+.viewed{
+    padding:8px;
+    height: fit-content;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    width:100%;
+}
+
+
+.connections:hover{
+    background:var(--list_background);
+    cursor: pointer;
+}
+
+.viewed:hover{
+    background:var(--list_background);
+    cursor: pointer;
+
+}
+
+.sidebar_footer{
+    display: flex;
+    align-items: center;
+    padding:10px;
+}
+
+ .sidebar_footer >i{
+    margin-right:10px;
+    font-size: medium;
+}
+
+.sidebar_access{
+    padding:10px;
+    font-size: var(--sidebar_title_size);
+    border: 1px solid lightgray;
+    border-left:none;
+    width:100%;
+    border-right:none;
+
+}
+a{
+    text-decoration: none;
+    color:black;
+
+}
+
+.sidebar_access:hover{
+    cursor: pointer;
+    background-color: var(--list_background);
+}
+
+ a:hover{
+    color:blue;
+}
+
+.sidebar_second_col{
+    display: flex;
+    flex-direction: column;
+    align-items:stretch;
+    height:fit-content;
+    flex-wrap: wrap;
+    border:2px solid rgba(0,0,0,.15);
+    background-color:white;
+}
+
+.title_text:hover{
+    text-decoration: underline;
+}
+
+.sidebar_title{
+    margin:10px;
+    font-size: var(--message_font_size);
+  
+}
+.sidebar_second_text{
+    padding:3px 10px;
+    font-size: 0.9rem;
+    color:grey;
+    font-weight: 500;
+}
+
+.sidebar_second_text:hover{
+    background-color: var(--list_background);
+}
+
+.sidebar_second_col, .sidebar_first_col{
+    border-radius: 8px;
+}
+
+/* .recent{
+    padding:0 10px;
+} */
