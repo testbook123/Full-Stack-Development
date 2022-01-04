@@ -1,1 +1,0 @@
-This folder will have the sample codes. You can download them as Zip and just extract them and use in your local.
